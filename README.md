@@ -1,4 +1,4 @@
-# Local DeepSeek Chat with Ollama + Streamlit
+# DeepSeek Chat with Ollama + Streamlit (Still in progress for live 2D interaction, global deployment and more functions)
 
 **Run DeepSeek‑R1 entirely offline with Ollama and give it a clean Streamlit interface — all developed from PyCharm under WSL.**
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 🖥 Quick terminal chat
+## Quick terminal chat
 
 ```bash
 # Pull the model (≈ 9 GB once):
@@ -124,6 +124,6 @@ Place Nginx / Caddy in front of port 8501 for HTTPS.
 
 ---
 
-## 📄 License
+## License
 
 MIT © 2025 Enze
