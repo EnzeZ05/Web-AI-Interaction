@@ -1,6 +1,6 @@
 # DeepSeek‑R1 + Streamlit Chat 
 
-**Self‑hosted LLM chat UI that runs 100 % offline on your own machine.**
+**Self‑hosted LLM chat UI that runs 100 % efficient on your own laptop.**
 
 |               | What you get                                                                     |
 | ------------- | -------------------------------------------------------------------------------- |
