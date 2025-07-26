@@ -18,7 +18,7 @@
 | **WSL 2**  | Win 10 22H2 / Win 11 | `wsl --install -d Ubuntu`        |
 | **Ubuntu** | 22.04 LTS            | Any recent LTS works             |
 | **Python** | 3.9 +                | Comes with Ubuntu; we use `venv` |
-| **Ollama** | 0.1.30 +             | « curl ♒ install » script        |
+| **Ollama** | 0.1.30 +             | « curl install » script        |
 
 > **Disk space:** DeepSeek‑R1 14B = ≈ 9 GB.
 
