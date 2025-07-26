@@ -75,7 +75,7 @@ Open [http://localhost:8501](http://localhost:8501) in your Windows browser.
 
 ---
 
-## 3 . PyCharm + WSL workflow (optional but recommended)
+## 3 . PyCharm + WSL workflow
 
 1. **Open PyCharm** → *Open* → `\wsl$\Ubuntu\home\<you>\deepseek-streamlit-chat`.
 2. **File ▸ Settings ▸ Python Interpreter** → **Add ▸ Existing** → pick `.venv/bin/python`.
