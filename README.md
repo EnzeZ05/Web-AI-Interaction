@@ -1,4 +1,4 @@
-# DeepSeek‑R1 + Streamlit Chat
+# DeepSeek‑R1 + Streamlit Chat 
 
 **Self‑hosted LLM chat UI that runs 100 % offline on your own machine.**
 
@@ -64,7 +64,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # 2‑d  Run the web app  (leave Ollama running in another tab!)
-streamlit run app.py
+streamlit run ai_chat.py
 ```
 
 Open [http://localhost:8501](http://localhost:8501) in your Windows browser.
@@ -88,7 +88,7 @@ Open [http://localhost:8501](http://localhost:8501) in your Windows browser.
 | -------------- | ------------------------------------------------------------ |
 | Add a PyPI lib | `pip install <lib>` then **Sync Python Packages** in PyCharm |
 | Freeze deps    | `pip freeze > requirements.txt`                              |
-| Debug          | Right‑click `app.py` ▸ *Debug Streamlit App*                 |
+| Debug          | Right‑click `ai_chat.py` ▸ *Debug Streamlit App*                 |
 
 ---
 
@@ -145,6 +145,8 @@ Point Nginx or Caddy to `localhost:8501`, add HTTPS, done.
 | New DeepSeek version | `ollama pull deepseek-r1:16b` and update `MODEL_NAME` in `app.py`. Restart server. |
 | New Python deps      | `pip install <lib>` → `pip freeze > requirements.txt`                              |
 | Backup code          | `zip -r ~/chat_backup.zip . -x '*.pyc' '*__pycache__*' '.venv/*'`                  |
+
+Still in progress for live 2D interaction, global deployment and more functions!
 
 ---
 
