@@ -85,7 +85,7 @@ Two small processes; nothing else required.
 
    * Open `~/project` as a WSL project.
    * Settings ▸ Python Interpreter ▸ **Existing** → `.venv/bin/python`.
-   * Run configuration → `streamlit run app.py`.
+   * Run configuration → `streamlit run ai_chat.py`.
 
 ---
 
