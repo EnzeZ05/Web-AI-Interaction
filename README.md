@@ -134,7 +134,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now ollama streamlit
 ```
 
-Point Nginx or Caddy to `localhost:8501`, add HTTPS, done.
+Point Nginx or Caddy to `localhost:8501`, add HTTPS, then done!
 
 ---
 
